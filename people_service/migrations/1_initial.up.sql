@@ -8,4 +8,4 @@ CREATE TABLE people (
  INSERT INTO people (name) VALUES
 ('Владимир'), ('Владислав'), ('Даниил');
 
-COMMIT:
+COMMIT;
