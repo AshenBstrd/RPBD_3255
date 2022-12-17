@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	conn := "postgresql://postgre:testbd:1234/postgre"
+	conn := "postgres://kulev:123123123@95.217.232.188:7777/kulev"
 	s := store.NewStore(conn)
 	fmt.Println(s.GetPeopleByID("400"))
 	fmt.Println(s.ListPeople())
